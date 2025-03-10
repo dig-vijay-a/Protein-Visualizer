@@ -171,9 +171,9 @@ margin-bottom:30px;
 height:45px;
 border-radius:10px;
 border-style:solid;
-width:300px;
+max-width:300px;
 padding:10px;
-margin-right:20px;
+margin-right:10px;
 border-color:#768578;
 }
 .bottom-part{
@@ -193,9 +193,9 @@ margin-bottom:30px;
 height:45px;
 border-radius:10px;
 border-style:solid;
-width:300px;
+max-width:300px;
 padding:10px;
-margin-right:20px;
+margin-right:10px;
 border-color:#768578;
 }
 .label{
