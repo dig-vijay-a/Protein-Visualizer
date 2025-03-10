@@ -125,7 +125,8 @@ display:flex;
 justify-content:center;
 align-items:center;
 background-color:#000000;
-max-height:360px;
+max-height:370px;
+height:360px;
 }
 
 .picture-part{
@@ -214,7 +215,8 @@ display:flex;
 justify-content:center;
 align-items:center;
 background-color:#000000;
-max-height:360px;
+max-height:370px;
+height:360px;
 }
 .picture-part{
 display:flex;
