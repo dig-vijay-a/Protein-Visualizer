@@ -125,7 +125,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 background-color:#000000;
-min-height:360px;
+height:360px;
 }
 
 .picture-part{
@@ -216,7 +216,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 background-color:#000000;
-min-height:360px;
+height:360px;
 }
 .picture-part{
 display:flex;
