@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+padding:0px;
+margin:0px;
+}
+.checkbox{
+margin-right:5px;
+}
+.button{
+margin-left:20px;}
+.page{
+display:flex;
+flex-direction:column;
+margin:0px;
+padding:0px;
+}
+.logo-cont{
+justify-content:center;
+align-items:center;
+display:flex;
+margin-top:0px;
+background-color:#282c34;
+padding:15px;
+width:100vw;
+}
+
+.logo{
+width:60px;
+height:60px;
+margin-right:20px;
+border-radius:30px;
+}
+.head{
+font-style:"Bree Serif";
+font-size:35px;
+color:#ffffff;
+}
+.cont-1{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:30px;
+}
+.inp{
+height:45px;
+border-radius:10px;
+border-style:solid;
+width:300px;
+padding:10px;
+margin-right:20px;
+border-color:#768578;
+}
+.bottom-part{
+display:flex;
+justify-content:space-around;
+align-items:center;
+width:100vw;
+padding:10px;
+}
+.cont-2{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:30px;
+}
+.upload{
+height:45px;
+border-radius:10px;
+border-style:solid;
+width:300px;
+padding:10px;
+margin-right:20px;
+border-color:#768578;
+}
+.label{
+margin-bottom:10px;
+font-weight:bold;
+font-style:"sans-serif";
+}
+.para{
+font-weight:bold;
+font-decoration:'line-through';
+margin-bottom:30px;
+}
+.output{
+border-radius:15px;
+width: 600px;
+display:flex;
+justify-content:center;
+align-items:center;
+background-color:#000000;
+min-height:360px;
+}
+
+.picture-part{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+@media (max-width: 992px) {
+  .page{
+display:flex;
+flex-direction:column;
+margin:0px;
+padding:0px;
+}
+.logo-cont{
+justify-content:center;
+align-items:center;
+display:flex;
+margin-bottom:20px;
+margin-top:0px;
+background-color:#282c34;
+padding:10px;
+width:100vw;
+}
+.logo{
+width:40px;
+height:40px;
+margin-right:15px;
+border-radius:30px;
+}
+.head{
+font-style:"Bree Serif";
+font-size:20px;
+color:#ffffff;
+}
+.cont-1{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:30px;
+}
+.inp{
+height:45px;
+border-radius:10px;
+border-style:solid;
+width:300px;
+padding:10px;
+margin-right:20px;
+border-color:#768578;
+}
+.bottom-part{
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+align-items:center;
+width:100vw;
+padding:15px;
+}
+.cont-2{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:30px;
+}
+.upload{
+height:45px;
+border-radius:10px;
+border-style:solid;
+width:300px;
+padding:10px;
+margin-right:20px;
+border-color:#768578;
+}
+.label{
+margin-bottom:10px;
+font-weight:bold;
+font-size:20px;
+font-style:"sans-serif";
+}
+.para{
+font-weight:bold;
+font-decoration:'line-through';
+margin-bottom:20px;
+}
+.output{
+width:90vw;
+border-radius:15px;
+display:flex;
+justify-content:center;
+align-items:center;
+background-color:#000000;
+min-height:360px;
+}
+.picture-part{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.verline{
+display:none;
+}
+}
