@@ -145,12 +145,13 @@ const downloadImage = () => {
 
     return (
 
-        <div className="container page">
+        <div className="container-fluid">
+<div className='row'>
 <div className="logo-cont">
 <img src='favicon.ico' alt='logo' className='logo' />
 <h1 className='head'>PROVIZ (The Protein Visualization Tool)</h1>
 </div>
-<div className='bottom-part mt-3'>
+<div className='bottom-part'>
 <div>
 
            <label htmlFor="search" className='label'>Enter PDB ID:</label> 
@@ -205,7 +206,7 @@ id='search'
 
 
 </div>
-        </div>
+        </div></div>
 </div>
     );
 
