@@ -50,7 +50,7 @@ if (!stageRef.current) {
     }
 
     try {
-        const response = await fetch(`http://127.0.0.1:5000/fetch_pdb/${pdbId}`);
+        const response = await fetch(`https://protein-visualizer.onrender.com/fetch_pdb/${pdbId}`);
         const data = await response.json();
         
         console.log("PDB Data Received:", data.pdb_data?.slice(0, 100)); // Show first 100 chars
@@ -91,7 +91,7 @@ const uploadPDB = async () => {
   formData.append('file', file);
 
   try {
-    const response = await fetch('http://127.0.0.1:5000/upload_pdb', {
+    const response = await fetch('https://protein-visualizer.onrender.com/upload_pdb', {
       method: 'POST',
       body: formData,
     });
